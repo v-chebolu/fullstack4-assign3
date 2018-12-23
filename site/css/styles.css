@@ -1,0 +1,112 @@
+html {
+   box-sizing: border-box;
+}
+
+* {
+   box-sizing: inherit;
+}
+
+body {
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0px;
+}
+.navbar .navbar-default { 
+  height: auto;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height:auto;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background: #af4b14;
+  border: 1px solid #505050;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+
+
+
+
+@media (min-width: 768px) {
+  /* Hide menu items. This is different from default bootstrap behavior, but the 
+     assignment seems to call for menu items in nav bar to be invisible in non-mobile
+     display modes - the mockups show no menu items in navigation bar in non-mobile
+     display modes. The instructions say nothing about the subject.
+  */
+ 
+  .navbar-nav {
+     display: none !important;
+  }
+}
+
+
+/** Body **/
+/*
+ *  Assignment instructions call for main body to be enclosed by a tall div with
+ *  a distinct background *and* margins, but the mockup doesn't show the different 
+ *  background. It seems the instructions and the mockup are not in agreement.
+ *  This page obeys the instructions and so, it doesn't look like the mockup in 
+ *  this aspect.
+ *  The background directive below needs to be dropped from the tall-one's
+ *  styling to make the page look like the mockup.
+ */
+.tall-one {
+  min-height: 2000px;
+  background: #C2C2C2;
+}
+
+.tall-one > h1 {
+  padding-top: 10px;
+}
+
+.outer {
+  background-color: #808080;
+  margin: 15px;
+}
+p.sectext {
+  margin: 15px;
+  padding: 15px;
+}
+.outer h2 {
+  padding-top: 10px;
+}
+
