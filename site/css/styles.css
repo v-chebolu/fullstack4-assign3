@@ -80,18 +80,9 @@ body {
 
 
 /** Body **/
-/*
- *  Assignment instructions call for main body to be enclosed by a tall div with
- *  a distinct background *and* margins, but the mockup doesn't show the different 
- *  background. It seems the instructions and the mockup are not in agreement.
- *  This page obeys the instructions and so, it doesn't look like the mockup in 
- *  this aspect.
- *  The background directive below needs to be dropped from the tall-one's
- *  styling to make the page look like the mockup.
- */
+
 .tall-one {
   min-height: 2000px;
-  background: #C2C2C2;
 }
 
 .tall-one > h1 {
